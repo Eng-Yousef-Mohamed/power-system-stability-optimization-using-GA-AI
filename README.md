@@ -1,6 +1,34 @@
-# Power System Stabilization via Genetic Algorithm and AI
+# ⚡ Power System Stability Optimization using Genetic Algorithm & AI
 
-This project combines MATLAB-based simulation and optimization using Genetic Algorithms (GA) with a Python-based AI model to enhance the dynamic stability of power systems.
+This project focuses on improving power system stability using an AI-based prediction model, trained using data generated from Genetic Algorithm (GA) optimization in MATLAB.
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+power-system-stability-optimization/
+├── matlab_ga_model/             # MATLAB GA optimization script
+│   └── optimize_controller.m
+│
+├── dataset_generation/          # Loops through PL/PF values and runs GA
+│   └── generate_dataset_loop.m
+│
+├── data/
+│   └── GA_results.csv           # Generated dataset (PL, PF → Optimal Params)
+│
+├── ai_model/                    # Python AI model
+│   ├── main.py                  # Training + inference entry point
+│   ├── use_model.py             # Predict parameters from new inputs
+│   ├── model/
+│   │   ├── controller_model.h5  # Trained Keras model
+│   │   ├── scaler_X.save        # Input scaler
+│   │   └── scaler_y.save        # Output scaler
+│
+├── docs/
+│   └── thesis_summary.md        # Graduation project summary (optional)
+└── README.md                    # Project documentation
+```
 
 ## ⚙️ MATLAB: GA-Based Controller Optimization
 
