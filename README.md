@@ -36,7 +36,7 @@ This project combines MATLAB-based simulation and optimization using a Genetic A
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/power-system-stability-optimization.git
+   git clone https://github.com/Eng-Yousef-Mohamed/power-system-stability-optimization-using-GA-AI.git
    cd power-system-stability-optimization
    ```
 2. **MATLAB setup**: Ensure MATLAB’s current folder or path includes the `matlab_ga_model/` and `dataset_generation/` directories.
