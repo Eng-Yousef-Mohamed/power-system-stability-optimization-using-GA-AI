@@ -65,16 +65,10 @@ power-system-stability-optimization/
 │       ├── scaler_X.save        # Input scaler
 │       └── scaler_y.save        # Output scaler
 │
-├── docs/
-│   └── thesis_summary.md        # (Optional) project thesis summary
-│
 ├── images/                      # Diagrams and result plots
 │   ├── system_architecture.png  # Full system block diagram
 │   ├── ga_flowchart.png         # GA flowchart
-│   └── results/                 # Convergence & comparison plots
-│       ├── ga_convergence.png
-│       ├── eigen_margin.png
-│       └── ai_vs_ga.png
+│   └── results                 
 │
 ├── LICENSE                      # MIT License file
 └── README.md                    # Project documentation (this file)
